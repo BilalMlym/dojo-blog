@@ -1,14 +1,16 @@
 import './App.css';
+import NavBar from './NavBar';
+import Home from './Home';
 
 function App() {
-const title = 'welcome to my blog';
-const likes = 300;
+
 
   return (
     <div className="App">
+      <NavBar></NavBar>
       <div className="content">
-        <h1>{title}</h1>
-        <p>Liked { likes } times</p>
+        <Home></Home>
+        
       </div>
     </div>
   );
