@@ -63,6 +63,21 @@ button{
    
   }
 
+  .create {
+    color: rgb(160, 112, 7);
+    border: 5px 10px 20px;
+    text-shadow: 5px 10px 20px rgba(217, 13, 13, 0.55);
+    
+    
+  }
+
+  .blog-preview a {
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 8px;
+    text-decoration:solid
+  }
   // @keyframes button1 {
   //   from {
   //     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
